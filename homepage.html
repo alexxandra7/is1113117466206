@@ -5,16 +5,55 @@
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
 <style>
     body {
-    background-color: rgb(255, 204, 229);
+    background-color: rgb(216, 243, 216);
 }
+ 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.mainheading {
+     text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+    
+    }
 </style>
 
     </head>
     <body>
        
-        <h1 class="mainheading" style="border:2px Gray;">117466206 - IS1113 Project!</h1>
+        <h1 class="mainheading">117466206 - IS1113 Project!</h1>
         
-        <a href="CV/cv_page1.html">Curriculum Vitae</a>
-        <a href="Intrests/sports.html">Interests</a>
+        <ul>
+  <li><a class="active" href="CV/cv_page1.html">Curriculum Vitae</a></li>
+  <li><a href="Intrests/sports.html">Interests</a></li>
+  <li><a href="#OnlineShop"> Shop</a></li>
+  
+</ul>
     </body>
 </html>
