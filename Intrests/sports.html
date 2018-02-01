@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Sports</title>
-        <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
        
@@ -14,15 +14,54 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 <style>
 body {
-    background-color: lightgray;
+    background-image: url("https://cdn1.snowpak.com/images/images/000/000/503/medium/bigstock-Skiing-male-skier-in-powder-s-110234456.jpg?1500300991");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
 </style>
     </head>
     <body>
+        
+                   <ul>
+  <li><a href="../homepage.html">Home</a></li>                        
+  <li><a href="../CV/cv_page1.html">Curriculum Vitae</a></li>
+  <li><a class="active" href="../Intrests/sports.html">Interests</a></li>
+  <li><a href="../eBusiness/Ebus1.php">eBusiness</a></li>
+  
+</ul>
+
         <h1 class="mainheading">Sports </h1>
         
-        <p><strong>Favourite Sport:</strong> Skiing</p>
-        <p><strong>Training:</strong>Yes</p>
+        <p class="center"><strong>Favourite Sport:</strong> Skiing</p>
+        <p class="center"><strong>Training:</strong>Yes</p>
         
         <a href="travel.html" class="btn btn-dark">Next</a>
     </body>
