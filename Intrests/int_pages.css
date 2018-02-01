@@ -1,5 +1,6 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    
+    background-image: url("http://roundtripticket.me/media/background-throughout-world-map-background.jpg");
 }
 
 #section2{
@@ -12,5 +13,5 @@
 
 .section{
     text-align: center;
-    color: white;
+    color: black;
 }
