@@ -1,14 +1,20 @@
 #section1{
     
     background-image: url("http://www.saffronbusiness.com/wp-content/uploads/2013/04/world-map-background-copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #section2{
-    background-image: url("https://images.fineartamerica.com/images-medium-large-5/9-background-travel-concept-potowizard-thailand.jpg")
+    background-image: url(https://jaideethaicatering.co.uk/wp-content/uploads/2016/02/cropped-thai-background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #section3{
-    background-image: url("http://hdwpro.com/wp-content/uploads/2017/01/Wonderful-New-York-Wallpaper.jpg") 
+    background-image: url("http://hdwpro.com/wp-content/uploads/2017/01/Wonderful-New-York-Wallpaper.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section{
