@@ -2,19 +2,53 @@
 <html>
     <head>
         <title>Select Product</title>
-        
+         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+    
         <!--jQuery-->
         <script src "https://ajax.googleapis.com/ajax/libs/jquery,3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+        
+        <style>
+            body {
+    background-image: url(https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+        </style>
         
     </head>
     
     <body>
         
-          <h4>Select a Product</h4>
+       <br/>
+<ul>
+    <li><a class="active" href="homepage.html">Home</a></li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About Me</a>
+    <div class="dropdown-content">
+      <a href="CV/cv_page1.html">Curriculum Vitae</a>
+      <a href="Intrests/sports.html">Interests</a>
+      <a href="Intrests/cloud.html">Cloud Services<a/>
+      <a href="https://github.com/alexxandra7/is1113117466206">GitHub</a>
+    </div>
+      <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Cloud Store</a>
+      <div class="dropdown-content">
+      <a href="eBusiness/Ebus1.php">eBusiness</a>
+      </div>
+      <li><a href="Intrests/aboutcloud.html">About Cloud</a></li>
+     </li>
+ </ul>
+     
+     <br/>
+        
+          <h4 class="mainheading">Select a Product</h4>
           
           <br/>
           
+          <div id ="absolute" class="font" >
           <form method="POST" action="Ebus2.php">
           
           <label for="salesforce">
@@ -30,9 +64,10 @@
           </label>
           
           <label for="cloud9">
-          <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
-          Cloud9 @ $250
+              <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
+              Cloud9 @ 250.
           </label>
+         
           
           <label for="gmail">
           <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
@@ -55,16 +90,26 @@
          </label>
          
          <br/>
+         <div style="text-align:center";>
+         <button type="submit" id="btnProceed" class="button button2" >Add to Shopping Cart</button>
+          </div>
          
-         <button type="submit" id="btnProceed" >Add to Shopping Cart</button>
-          
           </form>
           
           <br/>
-          <button onClick="calcSub()">Calculate Cost</button>
-          <a role="button" href="Ebus1.php">Clear Choice</a>
+          <div style="text-align:center;">
+                  <button onClick="calcSub()" class="button button2">Calculate Cost</button>
+          </div>
+          
+          <div style="text-align: center;">
+        <a role="button" href="Ebus1.php" class="button button2">Clear Choice</a>
+         </div>
           
           <br/>
-          <a href="../homepage.html" class="btn btn-success">Home</a>
+          <div style="text-align: center;">
+        <a  href="../homepage.html" class="button button2">Home</a>
+         </div>
+          </div>
           </body>
     </html>
+  

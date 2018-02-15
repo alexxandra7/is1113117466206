@@ -6,6 +6,13 @@ function calcSub(){
     
     if(document.getElementById('salesforce').checked){
     argSubTotal=100;
+
+  }else if(document.getElementById('cloud9').checked){
+    argSubTotal=250;
+
+
+ } else if(document.getElementById('gmail').checked){
+    argSubTotal=150;
 }
     else{ 
         argSubTotal=300;
