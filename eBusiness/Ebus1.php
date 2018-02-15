@@ -29,6 +29,16 @@
           AWS @ $300
           </label>
           
+          <label for="cloud9">
+          <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
+          Cloud9 @ $250
+          </label>
+          
+          <label for="gmail">
+          <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+          gMail @ $150
+          </label>
+          
           <br/>
           <br/>
           
@@ -41,12 +51,12 @@
          
          <label for="total">
              Total
-             <input type="text" id="total" value="0.00" readonly/>
+             <input type="text" id="total" name="total" value="0.00" readonly/>
          </label>
          
          <br/>
          
-         <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+         <button type="submit" id="btnProceed" >Add to Shopping Cart</button>
           
           </form>
           
