@@ -37,3 +37,10 @@ function enablebtnProceed(){
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled',true); 
 } 
+
+function calcDisVatTotal(){
+    var  argDisVatTotal;
+    
+    
+    
+}
