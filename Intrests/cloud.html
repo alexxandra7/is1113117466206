@@ -2,12 +2,18 @@
 <html>
     <head>
         <title>Cloud Services</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+        
        
           <!-- CSS Features for Dropdown Menu-->
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          
+        
 <style>
 
 body {
@@ -55,55 +61,104 @@ body {
       
        <h1 class="round1">Cloud Services </h1>
        
-       
-      <div style="text-align: center;">
-       <h4 class="Mainheading"> What is cloud computing?</h4>
-       </div>
-      
-      <p style="font-size:100%;">
+      <div class="w3-container">
+ 
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">About Cloud Services</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Advantages</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Types of cloud deployments</div>
+    </a>
+  </div>
+
+  <div id="London" class="w3-container city" style="display:none">
+    <h2>What is cloud computing?</h2>
+    <p> Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the internet with pay-as-you-go pricing.</p>
+    <br/>
+    <h2 class="Mainheading"> How Does Cloud Computing Work?</h2>
+    <p style="font-size:100%;">
         Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the internet with pay-as-you-go pricing.  
       </p>
-      
-      <div style="text-align: center;">
-       <h4 class="Mainheading"> How Does Cloud Computing Work?</h4>
-       </div>
-       
-          <p style="font-size:100%;">
-       Cloud computing provides a simple way to access servers, storage, databases and a broad set of application services over the Internet. A Cloud services platform such as Amazon Web Services owns and maintains the network-connected hardware required for these application services, while you provision and use what you need via a web application.  
+      <h2>Uses of Cloud Computing</h2>
+      <p>
+          <ol>
+              <li>Create new apps and services</li><br/>
+              <li>Store, back up and recover data</li><br/>
+              <li>Host websites and blogs</li><br/>
+              <li>Stream audio and video</li><br/>
+              <li>Deliver software on demand</li><br/>
+              <li>Deliver software on demand</li><br/>
+          </ol>
       </p>
-      
-      <div style="text-align: center;">
-       <h4 class="Mainheading"> Advantages of Cloud Computing</h4>
-       </div>
-       
-       <div style="text-align: center;">
-       <h5 class="colourheading"> 1.Cost </h5>
-       </div>
-       
-       <p style="font-size:100%;">
+  </div>
+
+  <div id="Paris" class="w3-container city" style="display:none">
+    <h2>Advantages</h2>
+    <h5 class="colourheading"> 1.Cost </h5> 
+    <p style="font-size:100%;">
        Cloud computing eliminates the capital expense of buying hardware and software and setting up and running on-site datacenters—the racks of servers, the round-the-clock electricity for power and cooling, the IT experts for managing the infrastructure. It adds up fast.
       </p>
-      
-       <div style="text-align: center;">
-       <h5 class="colourheading"> 2. Performance </h5>
-       </div>
-       
+      <br/>
+      <h5 class="colourheading"> 2. Performance </h5>
        <p style="font-size:100%;">
       The biggest cloud computing services run on a worldwide network of secure datacenters, which are regularly upgraded to the latest generation of fast and efficient computing hardware. This offers several benefits over a single corporate datacenter, including reduced network latency for applications and greater economies of scale.
       </p>
-      
-      <div style="text-align: center;">
-       <h5 class="colourheading"> 3. Speed </h5>
-       </div>
-       
+      <h5 class="colourheading"> 3. Speed </h5>
        <p style="font-size:100%;">
        Most cloud computing services are provided self service and on demand, so even vast amounts of computing resources can be provisioned in minutes, typically with just a few mouse clicks, giving businesses a lot of flexibility and taking the pressure off capacity planning.
       </p>
+      <h5 class="colourheading"> 4.Global Scale </h5> 
+    <p style="font-size:100%;">
+      The benefits of cloud computing services include the ability to scale elastically. In cloud speak, that means delivering the right amount of IT resources—for example, more or less computing power, storage, bandwidth—right when its needed and from the right geographic location.
+      </p>
+      <br/>
+       <br/>
       
-   
+  </div>
+
+  <div id="Tokyo" class="w3-container city" style="display:none">
+    <h2>Types of cloud deployments</h2>
+    <p>
+        <ol>
+            <strong><li>Public Cloud</li></strong><br/>
+            Public clouds are owned and operated by a third-party cloud service provider, which deliver their computing resources like servers and storage over the Internet. Microsoft Azure is an example of a public cloud. With a public cloud, all hardware, software and other supporting infrastructure is owned and managed by the cloud provider. You access these services and manage your account using a web browser.
+            <br/>
+            <br/>
+            <strong><li>Private Cloud</li></strong>
+            A private cloud refers to cloud computing resources used exclusively by a single business or organisation. A private cloud can be physically located on the companys on-site datacenter. Some companies also pay third-party service providers to host their private cloud. A private cloud is one in which the services and infrastructure are maintained on a private network.
+            <br/>
+            <br/>
+            <strong><li>Hybrid Cloud</li></strong><br/>
+            Hybrid clouds combine public and private clouds, bound together by technology that allows data and applications to be shared between them. By allowing data and applications to move between private and public clouds, hybrid cloud gives businesses greater flexibility and more deployment options.
+        </ol>
+    </p>
+  </div>
+</div>
+
        <div style="text-align: center;">
         <a href="../homepage.html" class="button button2">Home</a>
          </div>
          
+         
+         <script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-blue", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-blue";
+}
+</script>
+
     </body>
 </html>

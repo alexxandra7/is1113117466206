@@ -3,6 +3,7 @@
 session_start();
 ?>
 
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -67,16 +68,24 @@ session_start();
         
         <h4 class=mainheading>Please enter your payment details.</h4>
         
-            <br />
-            
             <div id ="absolute"  >
+                
+                <label for="total1">
+                    Total: 
+                    <input type="text" id="total1" name="total1" value=" <?php
+                  echo "$" .($_REQUEST["total"]). ".";
+                    ?>" readonly>
+                </label>
+                  
+             <br/>
+             <br/>
             <form method = "POST" action = "Ebus3.php" >
                 
                 <label for="user_name">
-                    Name: 
+                    Name:
                 </label>
                 
-                <input type="text" id="user_name" placeholder="Name">
+                <input type="text" id="user_name" name="user_name" placeholder="Name">
                 
                 <br/>
                 
@@ -84,7 +93,7 @@ session_start();
                      E-Mail Address:
                 </label>
                 
-                <input type="text" id="user_email" placeholder="E-Mail Address" >
+                <input type="text" id="user_email" name="user_email" placeholder="E-Mail Address" >
                 
                 <br/>
                 
@@ -112,10 +121,12 @@ session_start();
             
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
-             
-        <?php
+       
+       <?php
         //Set session variables
-        $_SESSION["total"] = $_POST["total"];
+        $_SESSION["user_name"] = $_POST["username"];
+        $_SESSION["user_email"] = $_POST["user_email"];
+        $_SESSION["total1"] = $_POST["total1"];
         ?>
         
     </body>

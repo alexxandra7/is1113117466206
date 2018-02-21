@@ -55,20 +55,28 @@ session_start();
     </div>
   </div>
      
-        <h4 class="mainheading">PURCHASE RECEIPT</h4>
+        <h2 class="mainheading">PURCHASE RECEIPT</h2>
         
-        <div id ="absolute" class="font" >
+        <div id ="absolute1" class="font" >
             
-        <label  for="name">
-            Name:  
-        </label>
+        <h4><?php
+        echo "Customer Name: ". ($_REQUEST['user_name']) ." .";
+        ?></h4>
+                     
         <br/>
         
+        <h4> <?php
+        echo "Customer E-Mail: ". ($_REQUEST['user_email']) ." .";
+        ?></h4>
+      
+      <br/>
+        <h4>
         <?php
-        //Echo session variables that were set on previous page
-        echo "Total is " . $SESSION ["total"] ." .";
-        ?>
+        echo "Total Paid: $ " . ($_REQUEST['total']) ." ."; 
+        ?></h4>
+        
         </div>
+        
     </body> 
 
 </html>

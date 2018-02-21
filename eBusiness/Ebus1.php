@@ -1,3 +1,7 @@
+<?php
+//Start the session
+session_start();
+?>
 
 
 <!DOCTYPE html>
@@ -141,7 +145,10 @@
          </div>
           </div>
           
-          
+         <?php
+        //Set session variables
+        $_SESSION["total"] = $_POST["total"];
+        ?>
           </body>
     </html>
   
