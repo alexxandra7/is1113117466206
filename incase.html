@@ -1,0 +1,19 @@
+<h2 class="mainheading">PURCHASE RECEIPT</h2>
+        
+        
+        <div id ="absolute1" class="font" >
+            
+        <h4><?php
+        echo "Customer Name: ". ($_REQUEST['user_name']) ." .";
+        ?></h4>
+                     
+        <br/>
+        
+        <h4> <?php
+        echo "Customer E-Mail: ". ($_REQUEST['user_email']) ." .";
+        ?></h4>
+      
+      <br/>
+        <h4>
+        <strong>Total Paid:</strong><?php echo $total; ?>
+        </h4>

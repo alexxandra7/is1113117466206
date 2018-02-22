@@ -40,35 +40,35 @@ session_start();
        <div class="w3-dropdown-hover">
       <button class="w3-button w3-bar-item "><i class="fa fa-user-o"></i> About me</button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="CV/cv_page1.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">Curriculum Vitae</a>
-        <a href="Intrests/sports.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">My Intrests</a>
-        <a href="Intrests/cloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-blue">Cloud Services</a>
-        <a href="https://github.com/alexxandra7/is1113117466206" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink">GitHub</a>
+        <a href="../CV/cv_page1.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">Curriculum Vitae</a>
+        <a href="../Intrests/sports.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">My Intrests</a>
+        <a href="../Intrests/cloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-blue">Cloud Services</a>
+        <a href="../https://github.com/alexxandra7/is1113117466206" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink">GitHub</a>
         <a href="https://is1113117466206.herokuapp.com/" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-yellow">HerokuApp</a>
       </div>
       </div>
        <div class="w3-dropdown-hover">
       <button class="w3-button w3-bar-item "> <i class="fa fa-shopping-cart"></i> Cloud Store</button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="eBusiness/Ebus1.php" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">eBusiness</a>
+        <a href="../eBusiness/Ebus1.php" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">eBusiness</a>
      </div>
     </div>
     <div class="w3-dropdown-hover">
       <button class="w3-button w3-bar-item "> <i class="fa fa-cloud"></i> Cloud Services Vendor </button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="CloudServicesVendor/aboutus.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">About us</a>
-        <a href="CloudServicesVendor/aboutcloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">About Cloud</a>
+        <a href="../CloudServicesVendor/aboutus.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">About us</a>
+        <a href="../CloudServicesVendor/aboutcloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">About Cloud</a>
+        <a href="../CloudServicesVendor/products.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink">Our Products</a>
     </div>
     </div>
   </div>
      
      <br/>
         
-          <h4 class="mainheading">Select a Product</h4>
+          <h4 class="mainheading"><strong>Select a Product</strong></h4>
           
-          <br/>
           
-          <div id ="absolute" class="font" >
+          <div id ="absolute5" class="font" >
           <form method="POST" action="Ebus2.php">
           
           <label for="salesforce">

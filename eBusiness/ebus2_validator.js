@@ -3,6 +3,7 @@
 function validateDetails(){
     
     var pin;
+    var name;
     
     pin = document.getElementById("user_pin").value;
     
@@ -12,6 +13,11 @@ function validateDetails(){
     else if (String(pin).length<4){
         alert("Please make sure your PIN is accurate");
         }
+        
+      else if (name==""){
+        alert("Please enter your Name");
+        }
+        
     else{
         enablebtnPurchase();
         }

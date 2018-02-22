@@ -6,10 +6,14 @@
        
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<!-- CSS Features for Dropdown Menu-->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
 
 body {
-    background-image: url(https://www.superb.net/blog/wp-content/uploads/Dollarphotoclub_64704034_sized.jpg);
+    background-image: url(http://www.caymanfs.com/wp-content/uploads/2015/01/abs_BG.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -19,6 +23,7 @@ body {
 }
 
 
+
 </style>
     </head>
     
@@ -26,63 +31,76 @@ body {
         
  <br/>
  
- <ul>
-  <li><a href="homepage.html">Home</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">About Me</a>
-    <div class="dropdown-content">
-      <a href="CV/cv_page1.html">Curriculum Vitae</a>
-      <a href="Intrests/sports.html">Intrests</a>
-      <a href="Intrests/cloud.html">Cloud Services</a>
-      <a href="https://github.com/alexxandra7/is1113117466206">GitHub</a>
-      <a href="https://is1113117466206.herokuapp.com/">HerokuApp</a>
+ <div class="w3-bar w3-dark-gray ">
+    <a href="../homepage.html" class="w3-bar-item w3-button  w3-bar-item w3-button w3-hover-green"> <i class="fa fa-home"></i> Home </a>
+       <div class="w3-dropdown-hover">
+      <button class="w3-button w3-bar-item "><i class="fa fa-user-o"></i> About me</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="../CV/cv_page1.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">Curriculum Vitae</a>
+        <a href="../Intrests/sports.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">My Intrests</a>
+        <a href="../Intrests/cloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-blue">Cloud Services</a>
+        <a href="../https://github.com/alexxandra7/is1113117466206" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink">GitHub</a>
+        <a href="https://is1113117466206.herokuapp.com/" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-yellow">HerokuApp</a>
+      </div>
+      </div>
+       <div class="w3-dropdown-hover">
+      <button class="w3-button w3-bar-item "> <i class="fa fa-shopping-cart"></i> Cloud Store</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="../eBusiness/Ebus1.php" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">eBusiness</a>
+     </div>
     </div>
-    <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Cloud Store</a>
-    <div class="dropdown-content">
-      <a href="eBusiness/Ebus1.php">eBusiness</a>
-          </div>
-          <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Cloud Services Vendor</a>
-    <div class="dropdown-content">
-      <a href="CloudServicesVendor/aboutus.html">About Us</a>
-      <a href="CloudServicesVendor/aboutcloud.html">About Cloud</a>
-          </div>
-  </li>
-</ul>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-bar-item "> <i class="fa fa-cloud"></i> Cloud Services Vendor </button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="../CloudServicesVendor/aboutus.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">About us</a>
+        <a href="../CloudServicesVendor/aboutcloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">About Cloud</a>
+        <a href="../CloudServicesVendor/products.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink">Our Products</a>
+    </div>
+    </div>
+  </div>
       
        <h1 class="round1">Our Prodcuts</h1>
        
        
-      <div style="text-align: center;">
-       <h4 class="Mainheading" ><a href=https://www.salesforce.com/eu/>Salesforce <a/></h4>
+      <div id="product1" style="text-align: center;">
+       <h2 class="Mainheading"><a href=https://www.salesforce.com/eu/>Salesforce <a/></h2>
+       <br/>
+          <img align="middle" style="width:150px;height:100px" src="http://www.freelogovectors.net/wp-content/uploads/2016/12/salesforce-logo.png">
+       <br/>
+       <h3>$100</h3>
+       <br/>
+       <a href="../eBusiness/Ebus1.php" class="button button2">Purchase SalesForce</a>
        </div>
       
-      <p>
-      
-         <img align="middle" style="width:100px;height:100px" src="http://www.freelogovectors.net/wp-content/uploads/2016/12/salesforce-logo.png">
-      
-      </p>
-      
-      
-    <div style="text-align: center;">
-       <h4 class="Mainheading">Platform as a Service (PaaS) - <a href="https://c9.io/login">Cloud 9 </a></h4>
+     <div id="product2" style="text-align: center;">
+       <h2 class="Mainheading"><a href="https://c9.io/login">Cloud 9 </a></h2>
+       <br/>
+          <img align="middle" style="width:120px;height:120px" src="data:image/png;base64,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">
+       <br/>
+       <h3>$250</h3>
+       <a href="../eBusiness/Ebus1.php" class="button button2">Purchase Cloud9</a>
        </div>
        
-      
-      <div style="text-align: center;">
-       <h4 class="Mainheading">Infrastructure as a Service (IaaS) - <a href=https://www.amazon.com/> Amazon <a/> </h4>
+       <div id="product3" style="text-align: center;">
+       <h2 class="Mainheading"><a href=https://www.amazon.com/> Amazon <a/></h2>
+       <br/>
+         <img align="middle" style="width:150px;height:150px" src="http://g-ec2.images-amazon.com/images/G/01/social/api-share/amazon_logo_500500.png">
+       <br/>
+       <h3>$300</h3>
+       <a href="../eBusiness/Ebus1.php" class="button button2">Purchase Amazon</a>
        </div>
        
-      
-       
-        <div style="text-align: center;">
-       <h4 class="Mainheading">Communication as a Service (CaaS) - <a href=https://www.google.com/gmail/about/#>Gmail<a/></h4>
+       <div id="product4" style="text-align: center;">
+       <h2 class="Mainheading"> <a href=https://www.google.com/gmail/about/#>Gmail<a/></h2>
+       <br/>
+         <img align="middle" style="width:150px;height:150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGyBsFuhXjEgebCtQKN8307IfKYIQepXJQGETeBQdf9K-yf5OQ">
+       <br/>
+       <h3>$300</h3>
+       <a href="../eBusiness/Ebus1.php" class="button button2">Purchase Gmail</a>
        </div>
-     
-     
-   
-       <div style="text-align: center;">
+       
+ 
+       <div id="button" style="text-align: center;">
         <a href="../homepage.html" class="button button2">Home</a>
          </div>
          
