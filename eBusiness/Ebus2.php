@@ -13,7 +13,7 @@ session_start();
         $total = $_SESSION["total"]
         ?>
         
-        <title> Enter Details</title>
+        <title> Checkout</title>
         
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         
@@ -38,7 +38,7 @@ session_start();
     </head>
     
     <body>
-        
+        <!-- -->
     <br/>
 
 <!--This is the code for the dropdown navigation menu--> 
@@ -70,15 +70,17 @@ session_start();
     </div>
     </div>
   </div>
+  
+         <br/>
+        <h2 class=mainheading> <strong>Please enter your payment details.</strong></h2>
+        
+        <!--Form for entering customers payment details -->
         
                 <div id="absolute">
-                    
-                <h4 class=mainheading> <strong>Please enter your payment details.</strong></h4>
-                    
                 <form method ="POST" action ="Ebus3.php">
                 
                 <label for="total1">
-                    Total: 
+                    <strong>Total: </strong>
                     <input type="text" id="total1" name="total1" value=" $<?php echo $total; ?>" readonly>
                 </label>
                 
@@ -113,12 +115,15 @@ session_start();
                 <br/>
                     <label for="country">Country</label>
                     <select id="country" name="country">
-                     <option value="australia">Australia</option>
+                     <option value="ireland">Ireland</option>
                      <option value="canada">Canada</option>
                      <option value="usa">USA</option>
+                     <option value="uk">UK</option>
+                     <option value="france">France</option>
+                     <option value="poland">Poland</option>
+                     <option value="australia">Australia</option>
                      </select>
-                     
-                <br/>
+                 
                 
                 <h6><strong>Payment</strong></h6>
                 <h6>Accepted Cards </h6>
@@ -156,7 +161,7 @@ session_start();
                      Expiry Date:
                 </label>
                 
-                <input type="text" id="user_expirydate" placeholder="Expiry Date" maxlength="10">
+                <input type="date" id="user_expirydate" placeholder="Expiry Date" maxlength="10">
                 
                 <br/>
                 
@@ -169,15 +174,17 @@ session_start();
                 <input type="password" id="user_CVV" placeholder="CVV" maxlength="3">
                  <br/>
                  <br/>
-                    
-                <button type="Submit" id="btnPurchase" class="button button2" > 
+                 
+                  <button type="Submit" id="btnPurchase" class="button button2" > 
                     Proceed with Purchase 
-                </button>
-                
-                 <button class="button button2" onClick="validateDetails()"> Validate </button>
-            </form>
-            </div>
-            
+                     </button>
+               
+                </form>
+               
+                     
+            <button class="button button2" onClick="validateDetails()"> Validate </button>
+             </div>
+             
         <script type="text/javascript" src="ebus2_validator.js"></script>
        
          </body>

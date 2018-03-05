@@ -10,12 +10,13 @@
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          
 
 
 <style>
 
 body {
-    background-image: url(https://www.superb.net/blog/wp-content/uploads/Dollarphotoclub_64704034_sized.jpg);
+    background-image: url(https://ak5.picdn.net/shutterstock/videos/27423805/thumb/1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -30,83 +31,101 @@ body {
     </head>
     
     <body>
-        
+        <!--Dropdown menu -->
  <br/>
  <div class="w3-bar w3-dark-gray ">
-    <a href="../homepage.html" class="w3-bar-item w3-button  w3-bar-item w3-button w3-hover-green"> <i class="fa fa-home"></i> Home </a>
-       <div class="w3-dropdown-hover">
-      <button class="w3-button w3-bar-item "><i class="fa fa-user-o"></i> About me</button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="../CV/cv_page1.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">Curriculum Vitae</a>
-        <a href="../Intrests/sports.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">My Intrests</a>
-        <a href="../Intrests/cloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-blue">Cloud Services</a>
-        <a href="../https://github.com/alexxandra7/is1113117466206" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink">GitHub</a>
-        <a href="https://is1113117466206.herokuapp.com/" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-yellow">HerokuApp</a>
-      </div>
-      </div>
-       <div class="w3-dropdown-hover">
-      <button class="w3-button w3-bar-item "> <i class="fa fa-shopping-cart"></i> Cloud Store</button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="../eBusiness/Ebus1.php" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">eBusiness</a>
-     </div>
-    </div>
-    <div class="w3-dropdown-hover">
-      <button class="w3-button w3-bar-item "> <i class="fa fa-cloud"></i> Cloud Services Vendor </button>
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+      <div class="w3-dropdown-hover">
+        <a href="../homepage.html" class="w3-bar-item w3-button  w3-bar-item w3-button w3-hover-green"> <i class="fa fa-home"></i> Home </a>
         <a href="../CloudServicesVendor/aboutus.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">About us</a>
         <a href="../CloudServicesVendor/aboutcloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">About Cloud</a>
         <a href="../CloudServicesVendor/products.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink">Our Products</a>
     </div>
     </div>
+  
+    
+         <!--Tabs-->
+        <h1 class="round1">Cloud Services </h1>
+       
+      <br/>
+      <br/>
+      
+      <div class="w3-container">
+ 
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'part1');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Software as a Service (SaaS) - SalesForce</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'part2');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Platform as a Service (PaaS) - Cloud 9</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'part3');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Infrastructure as a Service (IaaS)- Amazon <i class="fa fa-amazon"></i> </div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'part4');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Communication as a Service (CaaS) - Gmail <i class="fa fa-google"></i></div>
+    </a>
   </div>
-      
-       <h1 class="round1">About Cloud</h1>
-       
-       
-      <div style="text-align: center;">
-       <h3 class="Mainheading" > <strong>Software as a Service (SaaS) - </strong><a href=https://www.salesforce.com/eu/>Salesforce <a/></h3>
-       </div>
-      
-      
-      <p style="font-size:100%;">
+
+  <div id="part1" class="w3-container city" style="display:none">
+    <h2>Software as a Service (SaaS) - </strong><a href=https://www.salesforce.com/eu/>Salesforce <a/></h2><!--Hyperlink to SaleForce website -->
+    <p style="font-size:100%;">
        Software as a Service or SaaS is a way of delivering applications over the Internet as a service. Also known as cloud software, ASP, on-demand software or hosted software. The first applications for consumers were things like webmail, bookmarking and photo sharing. In business, things like recruitment, expenses and customer relationship management were among the early innovations. SaaS has since become a widely-used business model with more and more different kinds of applications available via the cloud.  
       </p>
-      
-      
-    <div style="text-align: center;">
-       <h3 class="Mainheading"><strong>Platform as a Service (PaaS) - </strong><a href="https://c9.io/login">Cloud 9 </a></h3>
-       </div>
-       
-          <p style="font-size:100%;">
-       In the PaaS model: OCcloud9 provides a computing platform and/or solution stack typically including operating system, programming language execution environment, database, and web server. Application developers can develop and run their software solutions on a cloud platform without the cost and complexity of buying and managing the underlying hardware and software layers.
+  </div>
+
+  <div id="part2" class="w3-container city" style="display:none">
+    <h2>Platform as a Service (PaaS) - </strong><a href="https://c9.io/login">Cloud 9 </a></h2> <!--Hyperlink to Cloud9 website -->
+   <p style="font-size:100%;">
+       In the PaaS model: Cloud9 provides a computing platform and/or solution stack typically including operating system, programming language execution environment, database, and web server. Application developers can develop and run their software solutions on a cloud platform without the cost and complexity of buying and managing the underlying hardware and software layers.
       </p>
-      
-      <div style="text-align: center;">
-       <h3 class="Mainheading"><strong>Infrastructure as a Service (IaaS) -</strong> <a href=https://www.amazon.com/> Amazon <a/> </h3>
-       </div>
-       
-       <p style="font-size:100%;" >
-       Infrastructure as a Service (IaaS) is a method of delivering computing, storage, networking and other capabilities via the Internet. IaaS enables companies to utilize web-based operating systems, applications and storage without having to purchase, manage and support the underlying cloud infrastructure. The most popular examples of IaaS platforms include Amazon Web Services (AWS) and Microsoft® Azure®.
+      <br/>
+       <br/>
+      </div>
+
+  <div id="part3" class="w3-container city" style="display:none">
+    <h2>Infrastructure as a Service (IaaS) -</strong> <a href=https://www.amazon.com/> Amazon  <a/>  <i class="fa fa-amazon"></i></h2> <!--Hyperlink to Amazon website -->
+     <p style="font-size:100%;" >
+       Infrastructure as a Service (IaaS) is a method of delivering computing, storage, networking and other capabilities via the Internet. IaaS enables companies to utilize web-based operating systems, applications and storage without having to purchase, manage and support the underlying cloud infrastructure. The most popular examples of IaaS platforms include Amazon Web Services (AWS) and Microsoft Azure.
        </p>
-       
-        <div style="text-align: center;">
-       <h3 class="Mainheading"><strong>Communication as a Service (CaaS) -</strong> <a href=https://www.google.com/gmail/about/#>Gmail<a/></h3>
-       </div>
-      
-      <p style="font-size:100%;">
+  </div>
+</div>
+
+ <div id="part4" class="w3-container city" style="display:none">
+    <h2>Communication as a Service (CaaS) -</strong> <a href=https://www.google.com/gmail/about/#>Gmail<a/> <i class="fa fa-google"></i></h2><!--Hyperlink to Gmail website -->
+    <p style="font-size:100%;">
        CaaS is part of a larger category of services known as software as a service (SaaS), in which vendors offer software products and services over the Internet. It is also an alternative to the traditional model of buying and installing licensed software on site.
 
 The core concept of CaaS is that accessing these services over the internet is extremely convenient. The client businesses do not have to worry about maintaining servers and connections, uploading different kinds of content or doing all of the administrative work involved in keeping a communications platform functional. Business users just sign in and use the services. 
       </p>
  
- <br/>
-   <div style="text-align: center;">
+  </div>
+</div>
+
+ <div style="text-align: center;">
         <a href="../CloudServicesVendor/products.html" class="button button2">Buy Products</a>
          </div>
          
        <div style="text-align: center;">
         <a href="../homepage.html" class="button button2">Home</a>
          </div>
+      
          
+          <!--JavaScript function to allow for the swappig between different tabs based on the tab is clicked. -->
+         <script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-blue", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-blue";
+}
+</script>
+
     </body>
 </html>

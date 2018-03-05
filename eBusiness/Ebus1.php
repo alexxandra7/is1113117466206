@@ -20,12 +20,13 @@ session_start();
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         
         <style>
+        
+        
             body {
     background-image: url(https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png);
     background-repeat: no-repeat;
     background-size:cover;
 }
-
 
         </style>
         
@@ -34,7 +35,7 @@ session_start();
     <body>
         
        <br/>
-
+   <!--Dropdown menu -->
   <div class="w3-bar w3-dark-gray ">
     <a href="../homepage.html" class="w3-bar-item w3-button  w3-bar-item w3-button w3-hover-green"> <i class="fa fa-home"></i> Home </a>
        <div class="w3-dropdown-hover">
@@ -65,9 +66,9 @@ session_start();
      
      <br/>
         
-          <h4 class="mainheading"><strong>Select a Product</strong></h4>
+          <h2 class="mainheading"><strong>Select a Product</strong></h2>
           
-          
+          <!--Form for choosing product -->
           <div id ="absolute5" class="font" >
           <form method="POST" action="Ebus2.php">
           
@@ -137,12 +138,12 @@ session_start();
           </div>
           
           <div style="text-align: center;">
-        <a role="button" href="Ebus1.php" class="button button2">Clear Choice</a>
-         </div>
+          <a role="button" href="Ebus1.php" class="button button2">Clear Choice</a>
+          </div>
          
           <div style="text-align: center;">
-        <a  href="../homepage.html" class="button button2">Home</a>
-         </div>
+          <a  href="../homepage.html" class="button button2">Home</a>
+          </div>
           </div>
           
          <?php

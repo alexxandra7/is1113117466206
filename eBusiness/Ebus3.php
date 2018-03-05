@@ -12,13 +12,21 @@ session_start();
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         
-         <style>
+        <?php
+        //Set session variables
+        $_SESSION["total"] = $_POST["total1"];
+        $total = $_SESSION["total"]
+        ?>
+        
+   <style>
+         
             body {
     background-image: url(https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png);
     background-repeat: no-repeat;
     background-size:cover;
 }
 
+/* Recepit layout */
 
 .coupon {
     border: 5px dotted #bbb; /* Dotted border */
@@ -50,19 +58,16 @@ session_start();
 .expire {
     color: red;
 }
-        </style>
-        <?php
-        //Set session variables
-        $_SESSION["total"] = $_POST["total1"];
-        $total = $_SESSION["total"]
-        ?>
+    </style>
+        
     </head>
     
     <body>
         
-    <br/>
+          <br/>
 
-
+   <!-- Code for the menu bar -->
+   
    <div class="w3-bar w3-dark-gray ">
     <a href="../homepage.html" class="w3-bar-item w3-button  w3-bar-item w3-button w3-hover-green"> <i class="fa fa-home"></i> Home </a>
        <div class="w3-dropdown-hover">
@@ -94,20 +99,26 @@ session_start();
         <br/>
         <br/>
         <br/>
-        
+          
+          <!--Receipt  -->
+          
+          
     <div class="coupon">
   <div class="container2">
     <h2 class="center"><strong> <i class="fa fa-cart-arrow-down"></i> Purchase Recepit</strong></h2>
   </div>
   
   <div class="container" style="background-color:white">
-    <h2><b><strong>Total Paid:</strong><?php echo $total; ?></b></h2> 
-    <h6><?php
-        echo "Customer Name: " . ($_REQUEST['user_name']) ." .";
-        ?></h6>
-        <h6> <?php
-        echo "Customer E-Mail: ". ($_REQUEST['user_email']) ." .";
-        ?></h6>
+    <h2><b><strong>Total Paid:</strong><?php echo $total; ?></b></h2>  <!-- Passing on the Total Amout Paid Variable-->
+    <h6><strong><?php
+        echo "Customer Name: " . ($_REQUEST['user_name']) ." .";  //Passing on the name variable.
+        ?></strong></h6>
+        <h6> <strong><?php
+        echo "Customer E-Mail: ". ($_REQUEST['user_email']) ." ."; //Passing on the email variable.
+        ?></strong></h6>
+        <h6><strong> <?php
+        echo "Address: ". ($_REQUEST['user_address']) ." .";
+        ?><strong></h6>
     </div>
   <div class="container2">
     <p class=center><strong>Thank you for your purchase! <i class="fa fa-thumbs-up"></i></strong></p>
@@ -119,7 +130,7 @@ session_start();
         
         <div style="text-align: center;">
         <a href="../homepage.html" class="button button2">Home</a>
-     </div>
+        </div>
      
     </body> 
 

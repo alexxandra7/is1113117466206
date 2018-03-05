@@ -2,26 +2,48 @@
 
 #section1{
     
-    background-image: url("http://www.saffronbusiness.com/wp-content/uploads/2013/04/world-map-background-copy.jpg");
+    background-image: url("https://www.hfholidays.co.uk/media/cache/43/ce/43ce98e1542062338236e21195f9540a.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section2{
-    background-image: url(http://www.wallpapers-web.com/data/out/195/5521879-thailand-wallpapers.jpg);
+    background-image: url("https://www.ludzki.pl/wp-content/uploads/2017/09/tajlandia6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section3{
-    background-image: url("http://hdwpro.com/wp-content/uploads/2017/01/Wonderful-New-York-Wallpaper.jpg") ;
+    background-image: url("http://www.kinyu-z.net/data/wallpapers/38/833193.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .section{
     text-align: center;
-    color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 
+#cloud1{
+    background-image: url("https://i2.wp.com/www.rmstech.com.au/wp-content/uploads/2016/04/home-banner-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#cloud2{
+    background-image: url("http://edumuch.com/wp-content/uploads/2016/01/fe0cb49c-fc42-487f-8e68-e247b4278174_orig.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#cloud3 {
+    background-image: url("https://www.superb.net/blog/wp-content/uploads/Dollarphotoclub_64704034_sized.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
