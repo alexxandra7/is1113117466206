@@ -105,8 +105,8 @@ session_start();
           
     <div class="coupon">
   <div class="container2">
-    <h2 class="center"><strong> <i class="fa fa-cart-arrow-down"></i> Purchase Recepit</strong></h2>
-  </div>
+    <h2 class="center"><i class="fa fa-cart-arrow-down"></i><strong>Purchase Recepit</strong></h2>
+   </div>
   
   <div class="container" style="background-color:white">
     <h2><b><strong>Total Paid:</strong><?php echo $total; ?></b></h2>  <!-- Passing on the Total Amout Paid Variable-->
@@ -118,7 +118,7 @@ session_start();
         ?></strong></h6>
         <h6><strong> <?php
         echo "Address: ". ($_REQUEST['user_address']) ." .";
-        ?><strong></h6>
+        ?></strong></h6>
     </div>
   <div class="container2">
     <p class=center><strong>Thank you for your purchase! <i class="fa fa-thumbs-up"></i></strong></p>

@@ -161,7 +161,7 @@ session_start();
                      Expiry Date:
                 </label>
                 
-                <input type="date" id="user_expirydate" placeholder="Expiry Date" maxlength="10">
+                <input type="text" id="user_expirydate" placeholder="Expiry Date" maxlength="5">
                 
                 <br/>
                 
