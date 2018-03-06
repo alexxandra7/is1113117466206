@@ -8,10 +8,10 @@ session_start();
 <html>
     <head>
         <title>Select Product</title>
-         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+         <link rel="stylesheet" href="../mystylesheet.css" type="text/css">
     
         <!--jQuery-->
-        <script src "https://ajax.googleapis.com/ajax/libs/jquery,3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery,3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         
          <!-- CSS Features for Dropdown Menu-->
@@ -127,7 +127,7 @@ session_start();
          
          <br/>
          <br/>
-         <div style="text-align:center";>
+         <div style="text-align:center">
          <button type="submit" id="btnProceed" class="button button2" >Add to Shopping Cart</button>
           </div>
          
