@@ -67,16 +67,14 @@ session_start();
           <br/>
 
    <!-- Code for the menu bar -->
-   
-  
-     <div class="w3-bar w3-dark-gray ">
+    <div class="w3-bar w3-dark-gray ">
     <a href="../homepage.html" class="w3-bar-item w3-button  w3-bar-item w3-button w3-hover-green"> <i class="fa fa-home"></i> Home </a>
        <div class="w3-dropdown-hover">
       <button class="w3-button w3-bar-item "><i class="fa fa-user-o"></i> About me</button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="CV/cv_page1.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">Curriculum Vitae</a>
-        <a href="Intrests/sports.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">My Intrests</a>
-        <a href="Intrests/cloudservices.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-blue">Cloud Services</a>
+        <a href="../CV/cv_page1.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">Curriculum Vitae</a>
+        <a href="../Intrests/sports.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">My Intrests</a>
+        <a href="../Intrests/cloudservices.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-blue">Cloud Services</a>
        
       </div>
       </div>
@@ -89,15 +87,14 @@ session_start();
     <div class="w3-dropdown-hover">
       <button class="w3-button w3-bar-item "> <i class="fa fa-cloud"></i> Cloud Services Vendor </button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="CloudServicesVendor/aboutus.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">About us</a>
-        <a href="CloudServicesVendor/aboutcloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">About Cloud</a>
-        <a href="CloudServicesVendor/products.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink">Our Products</a>
+        <a href="../CloudServicesVendor/aboutus.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-light-green">About us</a>
+        <a href="../CloudServicesVendor/aboutcloud.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-teal">About Cloud</a>
+        <a href="../CloudServicesVendor/products.html" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink">Our Products</a>
     </div>
     </div>
     <a href="https://github.com/alexxandra7/is1113117466206" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-pink"><i class="fa fa-area-chart"></i> GitHub</a>
         <a href="https://is1113117466206.herokuapp.com/" class="w3-bar-item w3-button w3-bar-item w3-button w3-hover-yellow"><i class="fa fa-globe"></i> HerokuApp</a>
   </div>
-
      
         <br/>
         <br/>
